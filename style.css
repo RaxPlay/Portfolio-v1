@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    justify-items: center;
+    
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    width: 70px;
+    transition: 0.25s;
+}
+.nav-bar a:hover{
+    color: white;
+    text-decoration: underline;
+}
