@@ -1,28 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
-.nav-bar{
-    display: flex;
-    justify-items: center;
-    
+.home-container{
+    width: 200vh;
 }
-.nav-bar ul{
+.home-container nav ul{
     list-style-type: none;
     display: flex;
     gap: 60px;
 }
-.nav-bar a{
+.home-container nav{
+    justify-self: center;
+}
+.home-container nav a{
     color: white;
     text-decoration: none;
-    height: 20px;
-    width: 70px;
-    transition: 0.25s;
 }
-.nav-bar a:hover{
-    color: white;
+.home-container nav a:hover{
     text-decoration: underline;
+}
+.home-container .home{
+    width: 400px;
+    justify-self: center;
+    margin-left: 40px;
+    margin-top: 20vh;
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+.home-container .home h2{
+    height: 0px;
+    font-size: 1.7pc;
+    color: orange;
+}
+.home-container .home h1{
+    height: 20px;
+    font-size: 2.5pc;
+    color: rgb(221, 0, 0);
+}
+.home-container .home p{
+    font-size: 0.9pc;
+}
+.location {
+    color: rgb(164, 164, 164);
+    height: 15px;
+}
+.location i{
+    color: rgb(72, 72, 72);
+}
+
+.technologies-container{
+    position: absolute;
+    top: 90%;
+    width: 207vh;
+    text-align: center;
+}
+.technologies{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+}
+.technologies i{
+    padding: 10px 20px 25px;
+}
+.fa-html5{
+    color: red;
+}
+.fa-js{
+    color: rgb(251, 255, 0);
+}
+.fa-css{
+    color: rgb(0, 81, 255);
 }
