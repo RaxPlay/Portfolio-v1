@@ -9,7 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .home-container{
-    width: 200vh;
+    width: 180vh;
+}
+h2{
+    font-size: 30px;
 }
 .nav-bar{
     margin-top: 20px;
@@ -29,6 +32,8 @@ body{
 }
 .home-container nav{
     justify-self: center;
+    position: relative;
+    left: 5%;
 }
 .home-container nav a{
     color: white;
@@ -51,7 +56,7 @@ body{
     width: 400px;
     position: relative;
     top: -10%;
-    left: 30%;
+    left: 40%;
     margin-left: 40px;
     margin-top: 20vh;
     padding: 25px 50px;
@@ -68,6 +73,7 @@ body{
     color: rgb(255, 255, 255);
 }
 .home-container .home p{
+    text-align: left;
     font-size: 0.9pc;
 }
 .location {
@@ -81,8 +87,12 @@ body{
 .technologies-container{
     position: absolute;
     top: 60%;
-    width: 207vh;
+    width: 180vh;
     text-align: center;
+}
+.technologies-container h2{
+    position: relative;
+    left: 5%;
 }
 .technologies{
     border: 1px solid #7e92a6;
@@ -94,6 +104,8 @@ body{
     justify-content: center;
     gap: 50px;
     margin-bottom: 50px;
+    position: relative;
+    left: 5%;
 }
 .technologies img{
     padding: 25px 20px 25px;
@@ -104,34 +116,35 @@ body{
     background-color: #546372;
     position: absolute;
     top: 100%;
-    left: 2%;
-    width: 200vh;
+    left: 5%;
+    width: 180vh;
     justify-content: center;
     text-align: center;
     border: 1px solid #7e92a6;
     border-radius: 5px;
 }
 .projects{
-    border: 1px solid white;
     border-radius: 5px;
     width: 90%;
     justify-self: center;
-    height: 500px;
-    margin: 0px 10px 20px 10px;
+    height: 340px;
+    margin: 0px 10px 50px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .project {
     border-radius: 5px;
-    border: 1px solid;
+    border: 1px solid #7e92a6;
     width: 300px;
-    height: 300px;
+    height: 260px;
     margin-left: 20px;
     margin-right: 20px;
+    
+    transition: 0.5s;
 }
 .project p{
-    border: 1px solid;
+    border: 1px solid #7e92a6;
     background-color: #29323c;
     border-radius: 5px;
     height: 40px;
@@ -140,16 +153,51 @@ body{
     top: -31px;
 }
 .BMI-calculator-image{
+    width: 300px;
     height: 270px;
     border-radius: 5px;
 }
 .Netflix-recreation{
-    width:299px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     border-radius: 5px;
 }
 .apple-calc{
     width: 300px;
-    height: 300px;
+    height: 270px;
+    border-radius: 5px;    
+}
+.project:hover{
+    transform: scale(1.1);
+}
+
+.contact-container{
+    position: absolute;
+    top: 170%;
+    left: 37%;
+    border: 1px solid #7e92a6;
     border-radius: 5px;
+    background-color: #546372;
+    text-align: center;
+}
+.contacts{
+    padding: 40px;
+}
+.contacts p{
+    margin-top: 50px;
+}
+.contacts .links{
+    position: relative;
+    left: 10px;
+    
+}
+.gmail-icon{
+    width: 20px;
+}
+.goodbye{
+    position: absolute;
+    top: 220%;
+    left: 39%;
+    padding: 0px 0px 80px 0px; 
+    font-size: 20px;
 }
