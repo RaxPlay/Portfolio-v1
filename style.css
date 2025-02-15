@@ -8,6 +8,17 @@ body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
+.go-up{
+    position: fixed;
+    left: 96%;
+    top: 90%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #7e92a6;
+    background-color: #29323c;
+    color: white;
+}
 .home-container{
     width: 180vh;
 }
@@ -19,7 +30,7 @@ h2{
     background-color: #546372;
     border: 1px solid #7e92a6;
     border-radius: 5px;
-    width:510px;
+    width:540px;
     display: flex;
     justify-self: center;
     position: relative;
@@ -35,11 +46,14 @@ h2{
     position: relative;
     left: 5%;
 }
-.home-container nav a{
+.home-container nav button{
+    background-color: transparent;
+    border: none;
     color: white;
-    text-decoration: none;
+    width: 70px;
+    font-size: 15px;
 }
-.home-container nav a:hover{
+.home-container nav button:hover{
     text-decoration: underline;
 }
 .links img{

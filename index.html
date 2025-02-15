@@ -8,13 +8,16 @@
     <script src="https://kit.fontawesome.com/ba998730f8.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <button class="go-up" onclick="scrollToHome()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
     <div class="home-container">
         <nav class="nav-bar">
             <ul>
-                <a href="" onclick="scrollToHome()"><li>Home</li></a>
-                <a href="" onclick="scrollToTech()"><li>Tecnologies</li></a>
-                <a href="" onclick="scrollToPort()"><li>Portfolio</li></a>
-                <a href="" onclick="scrollToCont()"><li>Contact</li></a>
+                <button onclick="scrollToHome()"><li>Home</li></button>
+                <button onclick="scrollToTechnologies()"><li>Stack</li></button>
+                <button onclick="scrollToPortfolio()"><li>Portfolio</li></button>
+                <button onclick="scrollToContact()"><li>Contact</li></button>
             </ul>
         </nav>
         
@@ -84,7 +87,7 @@
             <a class="links linkedin-icon" href="https://www.linkedin.com/in/raxon-suri-216b9326b/" target="_blank">
                 <img src="icons/official-linkedin-logo----17.png" alt="">
             </a>
-            
+
             <div class="send-message">
                 <p>
                     If your prefer, you can send me a message to my email: 
@@ -99,6 +102,7 @@
     <div class="goodbye">
         <p>Thanks for watching my portfolio. Goodybye 👋</p>
     </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
