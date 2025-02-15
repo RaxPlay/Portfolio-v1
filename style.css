@@ -189,10 +189,12 @@ h2{
 .contacts .links{
     position: relative;
     left: 10px;
-    
 }
 .gmail-icon{
     width: 20px;
+}
+.linkedin-icon{
+    margin-left: 20px;
 }
 .goodbye{
     position: absolute;
